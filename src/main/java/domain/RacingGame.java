@@ -1,6 +1,12 @@
 package domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RacingGame {
+
+	private static final List<Car> cars = new ArrayList<Car>();
+	
 	public void play() {
 		prepare();
 		gamePlay();
@@ -9,6 +15,11 @@ public class RacingGame {
 
 	private void prepare() {
 		UI.inputCarNamesMessage();
+		split(UI.inputCarNames());
+	}
+
+	private void split(String carNames) {
+		// TODO Auto-generated method stub
 		
 	}
 
