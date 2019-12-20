@@ -25,4 +25,8 @@ public class UI {
 	public static void printExecutionResultMessage() {
 		System.out.println("실행 결과");
 	}
+
+	public static void printCarInfo(String carInfo) {
+		System.out.println(carInfo);
+	}
 }
