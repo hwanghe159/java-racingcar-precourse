@@ -3,20 +3,23 @@ package domain;
 import java.util.Random;
 
 public class Car {
-    private final String name;
-    private int position = 0;
+	
+	private static final int PROGRESS_OR_NOT_STANDARD = 4;
+	
+	private final String name;
+	private int position = 0;
 
-    public Car(String name) {
-        this.name = name;
-    }
+	public Car(String name) {
+		this.name = name;
+	}
 
 	public void attempt() {
 		Random random = new Random();
-		if(random.nextInt(10)>=4) {
-			
+		if (random.nextInt(10) >= PROGRESS_OR_NOT_STANDARD) {
+			progress();
 		}
 	}
-	
+
 	private void progress() {
 		this.position++;
 	}
