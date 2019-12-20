@@ -7,7 +7,8 @@ import org.assertj.core.util.Arrays;
 
 public class RacingGame {
 
-	List<Car> cars;
+	private static List<Car> cars;
+	private static final int ATTEMPT_NUM;
 	
 	public void play() {
 		prepare();
@@ -19,6 +20,7 @@ public class RacingGame {
 		UI.inputCarNamesMessage();
 		splitCarNames(UI.inputCarNames());
 		UI.inputAttemptNumbersMessage();
+		ATTEMPT_NUM = UI.inputAttemptNumbers();
 	}
 
 	private void splitCarNames(String carNames) {

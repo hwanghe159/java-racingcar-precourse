@@ -16,4 +16,9 @@ public class UI {
 	public static void inputAttemptNumbersMessage() {
 		System.out.println("시도할 횟수는 몇회인가요?");
 	}
+	
+	public static int inputAttemptNumbers() {
+		Scanner scan = new Scanner(System.in);
+		return scan.nextInt();	
+	}
 }
