@@ -7,18 +7,19 @@ public class RacingGame {
 		result();
 	}
 
-	private void result() {
+	private void prepare() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void gamePlay() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
-	private void prepare() {
+	private void result() {
 		// TODO Auto-generated method stub
-		
+
 	}
+
 }
