@@ -9,7 +9,7 @@ public class RacingGame {
 
 	private void prepare() {
 		UI.inputCarNamesMessage();
-
+		
 	}
 
 	private void gamePlay() {
