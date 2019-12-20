@@ -13,4 +13,7 @@ public class UI {
 		return scan.nextLine();
 	}
 
+	public static void inputAttemptNumbersMessage() {
+		System.out.println("시도할 횟수는 몇회인가요?");
+	}
 }

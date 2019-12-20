@@ -18,6 +18,7 @@ public class RacingGame {
 	private void prepare() {
 		UI.inputCarNamesMessage();
 		splitCarNames(UI.inputCarNames());
+		UI.inputAttemptNumbersMessage();
 	}
 
 	private void splitCarNames(String carNames) {
