@@ -8,7 +8,7 @@ public class RacingGame {
 	}
 
 	private void prepare() {
-		// TODO Auto-generated method stub
+		UI.inputCarNamesMessage();
 
 	}
 
