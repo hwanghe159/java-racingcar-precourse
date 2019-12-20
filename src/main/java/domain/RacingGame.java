@@ -8,7 +8,7 @@ import org.assertj.core.util.Arrays;
 public class RacingGame {
 
 	private static List<Car> cars;
-	private static final int ATTEMPT_NUM;
+	private static int ATTEMPT_NUM;
 	
 	public void play() {
 		prepare();
@@ -34,7 +34,7 @@ public class RacingGame {
 	}
 
 	private void gamePlay() {
-		// TODO Auto-generated method stub
+		UI.printExecutionResultMessage();
 
 	}
 

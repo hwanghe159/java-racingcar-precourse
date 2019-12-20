@@ -21,4 +21,8 @@ public class UI {
 		Scanner scan = new Scanner(System.in);
 		return scan.nextInt();	
 	}
+	
+	public static void printExecutionResultMessage() {
+		System.out.println("실행 결과");
+	}
 }
